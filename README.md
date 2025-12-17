@@ -10,7 +10,7 @@ This project implements an end-to-end Machine Learning pipeline to detect fraudu
 Key techniques used:
 - **SMOTE (Synthetic Minority Over-sampling Technique)** to handle class imbalance.
 - **Stratified K-Fold Validation** to ensure reliable performance metrics.
-- **Robust Scaling** for handling outliers in transaction amounts.
+- **XGBoost, Random Forest, and Logistic Regression** models.
 
 ## 📊 Key Results
 The model was optimized to maximize **Precision-Recall (AUPRC)** rather than simple accuracy.
@@ -18,16 +18,15 @@ The model was optimized to maximize **Precision-Recall (AUPRC)** rather than sim
 | Model | ROC-AUC | PR-AUC (Average Precision) |
 | :--- | :--- | :--- |
 | **XGBoost** | **0.98** | **0.87** |
-| Random Forest | 0.96 | 0.85 |
-| Logistic Regression | 0.94 | 0.78 |
-
-*(Note: Replace these numbers with your actual results)*
+| Random Forest | 0.97 | 0.86 |
+| Logistic Regression | 0.97 | 0.72 |
 
 ## 📈 Visualizations
-### Confusion Matrix
+
+### Confusion Matrix (XGBoost)
 ![Confusion Matrix](model_outputs/cm_xgb.png)
 
-### Precision-Recall Curve
+### Precision-Recall Curve (XGBoost)
 ![PR Curve](model_outputs/pr_xgb.png)
 
 ## 🛠️ Installation & Usage
@@ -35,4 +34,4 @@ The model was optimized to maximize **Precision-Recall (AUPRC)** rather than sim
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/ShivrudraSwami/Credit-Card-Fraud.git
-   cd Credit-Card-Fraud-Detection
+   cd Credit-Card-Fraud
