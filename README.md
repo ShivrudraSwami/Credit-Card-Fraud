@@ -25,10 +25,10 @@ The model was optimized to maximize **Precision-Recall (AUPRC)** rather than sim
 
 ## 📈 Visualizations
 ### Confusion Matrix
-![Confusion Matrix](figures/cm_xgb.png)
+![Confusion Matrix](model_outputs/cm_xgb.png)
 
 ### Precision-Recall Curve
-![PR Curve](figures/pr_xgb.png)
+![PR Curve](model_outputs/pr_xgb.png)
 
 ## 🛠️ Installation & Usage
 
