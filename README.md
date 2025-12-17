@@ -34,5 +34,5 @@ The model was optimized to maximize **Precision-Recall (AUPRC)** rather than sim
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Credit-Card-Fraud-Detection.git
+   git clone https://github.com/ShivrudraSwami/Credit-Card-Fraud.git
    cd Credit-Card-Fraud-Detection
