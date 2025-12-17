@@ -1,0 +1,14 @@
+# Ignore the dataset (too large)
+creditcard.csv
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+.vscode/
+
+# Ignore virtual environments
+venv/
+env/
